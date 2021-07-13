@@ -1,0 +1,285 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.my-btn{
+    padding: 10px 20px;
+    background-color: #E02C6D;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #ffff;
+    transition: 0.3s ease-in-out;
+}
+.my-btn:hover {
+    background-color: #e0c52c;
+}
+
+.title {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.section-title {
+    font-size: 48px;
+    margin: 15px 0;
+} 
+
+.section-details {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+    padding-bottom: 30px;
+}
+
+/* Header Style */
+.header {
+    background-color: #2D25A0;
+}
+
+.inner-header {
+    width: 1160px;
+    height: 677px;
+    margin: 0 auto;
+}
+
+/* Header Style (Nav Bar Style) */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+ul {
+    display: flex;
+    padding-left: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffff;
+    margin-right: 36px;
+}
+
+/* Header Style (Hero Box Style)*/
+.hero-box {
+    display: flex;
+    align-items: center;
+    margin: 50px 0 80px;
+}
+
+.heroBOx-title {
+    width: 50%;
+    text-align: left;
+    color: #ffff;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.heroBox-img {
+    width: 50%;
+}
+
+.heroBox-img img {
+    height: 438px;
+    width: 556px;
+}
+
+
+/* Players Section Style */
+.player-details {
+    margin-top: 70px;
+}
+
+.inner-player-details {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.player {
+    box-shadow: 2px 2px 10px rgba(190, 190, 190, 0.425);
+    border-radius: 5px;
+}
+
+.player-img img {
+    width: 92%;
+    height: 92%;
+    margin: 4% 4% 0;
+}
+
+.player-info{
+    padding: 0 4%;
+}
+
+.player-info h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.player-info p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+
+
+/* Highlight Section Style */
+.higlight-section {
+    margin-top: 160px;
+}
+
+.inner-highlight {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.highlight-details {
+    display: flex;
+    align-items: center;
+}
+
+.highlight-info {
+    width: 46%;
+    padding-right: 4%;
+}
+
+
+.highlight-img {
+    width: 50%;
+}
+
+.highlight-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Match Section Style */
+.Match-section {
+    margin-top: 160px;
+}
+
+.inner-match-section {
+    box-shadow: 2px 2px 10px rgba(151, 149, 149, 0.63);
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.match-details {
+    display: flex;
+    align-items: center;
+}
+
+.match-info {
+    width: 42%;
+    padding: 0 4% 4%;
+}
+
+.match-img {
+    width: 46%;
+    padding-right: 4%;
+}
+
+.match-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Patners Section Style */
+.patner-section {
+    margin-top: 60px;
+}
+
+.inner-patner-section {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.patners {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.patner-img{
+    width: 30%;
+}
+
+.patner-img img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.patner-img:hover img{
+    opacity: 1;
+}
+
+/* Logo & Social icon section style */
+.logo-section {
+    margin-top: 160px;
+}
+.inner-logo-section {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 480px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.social-icon {
+    margin: 40px 0 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.social-icon i {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #969BAB;
+    background-color: #d1d1d1;
+    padding: 15px;
+    border-radius: 50%;
+    transition: 0.2s ease-in;
+}
+
+.social-icon i:hover {
+    color: #ffff;
+    background-color: #E02C6D;
+}
+
+
+/* Footer Section Style */
+.footer-text {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 45px;
+}
