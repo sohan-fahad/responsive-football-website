@@ -19,6 +19,7 @@ body {
     font-size: 60px;
     text-align: center;
     padding-top: 50px;
+    color: #E02C6D;
 }
 
 .section-title {
@@ -69,6 +70,10 @@ li a {
     margin-right: 36px;
 }
 
+li a:hover {
+    color: #E02C6D;
+}
+
 /* Header Style (Hero Box Style)*/
 .hero-box {
     display: flex;
@@ -91,6 +96,12 @@ li a {
 .heroBox-img img {
     height: 438px;
     width: 556px;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+
+.heroBox-img img:hover {
+    transform: translateX(-10%);
 }
 
 
@@ -129,6 +140,12 @@ li a {
     font-size: 28px;
     font-weight: 700;
     margin: 10px 0;
+    cursor: pointer;
+    transition: 00.2s ease-in;
+}
+
+.player-info h3:hover {
+    color: #E02C6D;
 }
 
 .player-info p {
@@ -267,6 +284,7 @@ li a {
     background-color: #d1d1d1;
     padding: 15px;
     border-radius: 50%;
+    cursor: pointer;
     transition: 0.2s ease-in;
 }
 
