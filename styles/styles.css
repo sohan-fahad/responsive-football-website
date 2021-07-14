@@ -1,3 +1,7 @@
+/* Google  Font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* Common CSS Style */
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -5,8 +9,8 @@ body {
 .my-btn{
     padding: 10px 20px;
     background-color: #E02C6D;
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
     text-decoration: none;
     color: #ffff;
     transition: 0.3s ease-in-out;
@@ -63,7 +67,7 @@ ul li {
 }
 
 li a {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
     text-decoration: none;
     color: #ffff;
@@ -87,8 +91,11 @@ li a:hover {
     color: #ffff;
     font-size: 2em;
     font-weight: 700;
-}
 
+}
+.heroBOx-title h1 {
+    margin-bottom: 10px;
+}
 .heroBox-img {
     width: 50%;
 }
